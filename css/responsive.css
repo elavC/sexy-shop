@@ -1,0 +1,327 @@
+@media (max-width: 600px) {
+    .s-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+        padding: 3.2rem;
+    }
+
+    .s-hero .container-title {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-hero .container-title .title {
+        box-shadow: rgba(91, 10, 145, 0.511) 0px 5px 15px;
+        margin-bottom: 2.4rem;
+    } 
+    
+    .s-hero .container-title .title h1 {
+        font-size: 1.6rem;
+        
+    }
+
+    .s-hero .container-title .sub-title h2 {
+        font-size: 1.6rem;
+        width: 95%;
+        margin: auto;
+    }
+
+    .s-hero .container-title .sub-title:nth-child(3) {
+        display: none;
+    }
+
+    .s-hero .img-product img {
+        width: 400px;
+    }
+
+    .s-about {
+        background-image: linear-gradient(to bottom, rgb(153, 79, 222), black);
+    }
+
+    .s-about .container-about .title-main {
+        font-size: 1rem;
+    }
+
+    .s-about .container-about .container-questions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .s-about .container-about .container-questions .question {
+        padding: 4rem;
+    }
+
+    .s-about .container-about .container-questions .question .paragraph {
+        font-size: 1rem;
+    }
+    
+    .s-used .container-used .title {
+        text-align: center;
+    }
+
+    .s-used .container-used .container-method {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    .s-used .container-used .container-method .method-used p {
+        width: 250px;
+    }
+
+    .s-infor-price .container {
+        display: flex;
+        flex-direction: column;
+        padding: 3.2rem 0;
+    }
+
+    .s-infor-price .container .left {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    
+    .s-infor-price .container .left .title {
+        text-align: center;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .s-infor-price .container .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-infor-price .container .right .container {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        width: 80%;
+    }
+
+    .s-infor-price .container .right .container .container-bottom img {
+        width: 100%;
+    }    
+}
+
+@media (max-width: 450px) {
+    .s-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        align-items: center;
+        padding: 3.2rem;
+    }
+
+    .s-hero .container-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-hero .container-title .title {
+        box-shadow: rgba(91, 10, 145, 0.511) 0px 5px 15px;
+        margin-bottom: 2.4rem;
+        width: 300px;
+    } 
+    
+    .s-hero .container-title .title h1 {
+        font-size: 1.6rem;
+        
+    }
+
+    .s-hero .container-title .sub-title h2 {
+        font-size: 1.2rem;
+        margin: auto;
+    }
+
+    .s-hero .container-title .sub-title:nth-child(3) {
+        display: none;
+    }
+
+    .s-hero .img-product img {
+        width: 250px;
+    }
+
+    .s-about {
+        background-image: linear-gradient(to bottom, rgb(153, 79, 222), black);
+    }
+
+    .s-about .container-about .title-main {
+        font-size: 1rem;
+    }
+
+    .s-about .container-about .container-questions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .s-about .container-about .container-questions .question .paragraph {
+        font-size: 1rem;
+    }
+    
+    .s-used .container-used .title {
+        text-align: center;
+    }
+
+    .s-used .container-used .container-method {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    .s-used .container-used .container-method .method-used p {
+        width: 250px;
+    }
+
+    .s-infor-price .container {
+        display: flex;
+        flex-direction: column;
+        padding: 3.2rem 0;
+    }
+
+    .s-infor-price .container .left {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    
+    .s-infor-price .container .left .title {
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .s-infor-price .container .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-infor-price .container .right .container {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        width: 90%;
+    }
+
+    .s-infor-price .container .right .container .container-bottom img {
+        width: 100%;
+    }
+    
+} 
+
+@media (max-width: 320px) {
+    .s-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+        padding: 1.2rem 0 2.4rem 0;
+    }
+    
+    .s-hero .container-title {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .s-hero .container-title .title {
+        box-shadow: rgba(91, 10, 145, 0.511) 0px 5px 15px;
+    } 
+    
+    .s-hero .container-title .title h1 {
+        font-size: 1.6rem;
+        
+    }
+
+    .s-hero .container-title .sub-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .s-hero .container-title .sub-title:nth-child(3) {
+        display: none;
+    }
+
+    .s-hero .img-product img {
+        width: 250px;
+    }
+
+    .s-about {
+        background-image: linear-gradient(to bottom, rgb(153, 79, 222), black);
+    }
+
+    .s-about .container-about .title-main {
+        font-size: 1rem;
+    }
+
+    .s-about .container-about .container-questions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .s-about .container-about .container-questions .question .paragraph {
+        font-size: 1rem;
+    }
+    
+    .s-used .container-used .title {
+        text-align: center;
+    }
+
+    .s-used .container-used .container-method {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    .s-used .container-used .container-method .method-used p {
+        width: 250px;
+    }
+
+    .s-infor-price .container {
+        display: flex;
+        flex-direction: column;
+        padding: 3.2rem 0;
+    }
+
+    .s-infor-price .container .left {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    
+    .s-infor-price .container .left .title {
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .s-infor-price .container .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-infor-price .container .right .container {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        width: 90%;
+    }
+
+    .s-infor-price .container .right .container .container-bottom img {
+        width: 100%;
+    }
+
+}
